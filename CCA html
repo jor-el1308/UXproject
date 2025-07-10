@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Welcome To Board Games CCA!</title>
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<div id="imgtext">
+    <table id="bg" background="usethis.png"></table>
+    <h1 id="CCA">BOARD GAMES CCA</h1>
+</div>
+</body>
+</html>
