@@ -1,0 +1,23 @@
+body{
+    font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+}
+#CCA{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+#bg{
+margin: 0 auto; 
+width: 100%;
+height: 300px;
+padding: 0; 
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+#imgtext{
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
