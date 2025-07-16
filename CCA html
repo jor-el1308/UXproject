@@ -6,9 +6,8 @@
 <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-<div id="imgtext">
-    <table id="bg" background="usethis.png"></table>
-    <h1 id="CCA">BOARD GAMES CCA</h1>
-</div>
+<h1 id="CCA">BOARD GAMES CCA</h1>
+<p id="boldtext">Welcome to the Board Games Club!</p>
+<p>Board Games are a popular medium for entertainment among friends, family and more!<br> It is so critically acclaimed that even video games have adapted them into their virtual landscape.<br> However where's the fun in staring at a screen mindlessly until your eyes pop out?<br> This is where we come in! Our club provides a table, buddies and a wide range of<br> tabletop board games to play over a physical medium where our reactions and communication<br> are infinitely more entertaining than a sending silly internet image over Discord.</p>
 </body>
 </html>
