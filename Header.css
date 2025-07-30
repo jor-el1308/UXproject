@@ -1,104 +1,114 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
 }
 
-header{
-    background-color: #272b2d
+header {
+    background-color: black;
+    color: white;
+    border-bottom: 2px solid #ffffff33; /* subtle separator */
 }
 
-li{
+li {
     list-style: none;
 }
 
-a{
-    color:white;
+a {
+    color: white;
     text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
 }
 
-.navbar{
+a:hover {
+    color: #00bcd4; /* cyan hover color for contrast */
+}
+
+.navbar {
     min-height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 24px;
+    background-color: black;
 }
 
-.NavMenu{
-    display:flex;
+.NavMenu {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 60px;
-    text-wrap:nowrap;
+    text-wrap: nowrap;
 }
 
-.navLink{
-    transition: 0.5s ease-in-out;
+.navLink {
+    font-size: 18px;
+    text-transform: uppercase;
 }
 
-.navLink:hover{
-    color:#04688d;
+.navLink:hover {
+    color: #00bcd4;
 }
 
-.NavSideBar{
+.NavSideBar {
     display: none;
-    cursor: pointer;  
+    cursor: pointer;
 }
 
-.Bar{
+.Bar {
     display: block;
     width: 30px;
-    height:5px;
+    height: 5px;
     margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
     background-color: white;
+    transition: all 0.3s ease-in-out;
 }
 
-.Logo{
+.Logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-height: 60px;
 }
 
-
-.NavSideBar{
-    display:block;
+.NavSideBar {
+    display: block;
 }
 
-.NavSideBar.active .Bar:nth-child(2){
+.NavSideBar.active .Bar:nth-child(2) {
     opacity: 0;
 }
 
- .NavSideBar.active .Bar:nth-child(1){
+.NavSideBar.active .Bar:nth-child(1) {
     transform: translateY(10px) rotate(45deg);
 }
 
-.NavSideBar.active .Bar:nth-child(3){
+.NavSideBar.active .Bar:nth-child(3) {
     transform: translateY(-10px) rotate(-45deg);
 }
 
-    .NavMenu{
+.NavMenu {
     position: fixed;
     right: -100%;
-    top: 80px;
-    gap: 0;
+    top: 70px;
     flex-direction: column;
-    background-color: #272b2d;
+    background-color: black;
     width: 100%;
     text-align: center;
-    transition: 0.3s;
+    transition: 0.3s ease;
+    z-index: 1000;
+    padding: 20px 0;
 }
 
-    .navItem{
-         margin: 30px 0;
-         margin-right: 50%;
-        font-size: 2rem;
-        font-family: "Consolas", "Courier New", monospace;
-    }
+.navItem {
+    margin: 20px 0;
+    font-size: 24px;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+    color: white;
+}
 
-.NavMenu.active{
-    right: -50%;
-    }
-
+.NavMenu.active {
+    right: 0;
+}
