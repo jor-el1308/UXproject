@@ -9,6 +9,9 @@
     <style>
         /* In case you want to add something later*/
     </style>
+    <script>
+        /* idk how to add a wanring for leaving the page. prob needs a query or event listener*/
+    </script>
 </head>
 <body>
 <u><h1 id="leftwords">GAME OF THE WEEK</h1></u>
