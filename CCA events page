@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's Happening Soon?</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="Header.css">
+    <style>
+        /* In case you want to add something later*/
+    </style>
+</head>
+<body>
+<u><h1 id="leftwords">GAME OF THE WEEK</h1></u>
+  <div id="centerwords" style="display: flex; align-items: flex-start;">
+    <img src="pixel chessboard-1.png.png" loading="lazy" alt="Chess" width="400" height="400" style="padding-right: 100px;">
+    <div>
+      <h2>We are playing the game of wit, Chess!</h2>
+      <p>
+        We will play a free for all styled team based versus battle, find 2 partners and play against another group of 3.
+        You and your team will work and strategise together to win. Once you defeat the other team, you get to pick a member
+        from their team to add to your own. First team that gets 5 members win!
+      </p>
+      <br>
+      <br>
+      <p>
+        The <b><i>first 5</i></b> winners will get prizes! So try your best and get the Gold!
+      </p>
+    </div>
+  </div>
+<br>
+<br>
+<hr size="5px" color="white">
+<br>
+<br>
+<u><h1 id="rightwords">EVENTS</h1></u>
+<p class="caption" id="rightwords">(may or may not be Board Game related)</p>
+<br>
+<br>
+<h2 id="centerwords"><u>Mario Kart</u></h2>
+<div id="rightwords" style="display: flex; align-items: flex-start;">
+    <img src="mario.png" loading="lazy" alt="Mario Kart" width="400px" height="300px" style="padding-right: 250px;">
+    <div>
+        <p>Passionate Gamers, I'm sure you've heard of the release of the Switch 2.<br> If you're interested, you can come down to T-Junction to join us for a<br> night of Mario Kart!ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a href="gamenight.html" style="color: aqua;">for more details, click me!</a>
+    </div>
+</div>
+<br>
+<br>
+<h2 id="centerwords"><u>Netflix and Chill</u></h2>
+<div id="rightwords" style="display: flex; align-items: flex-start;">
+    <img src="img-netflix-home-screen.jpg" loading="lazy" alt="Netflix Homepage" width="400px" height="300px" style="padding-right: 250px;">
+    <div>
+        <p>We will be watching an Anime film, specifically <a style="color: aqua;" href="https://www.youtube.com/watch?v=LkTFtGmncrA&t=5s">Bâan: The Boundary of Adulthood(you can watch the premire here)</a></p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>It will be held on Discord at 7pm, August 31st and will run for about 20 minutes. Watch from the comfort of your home, enjoy!ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+    </div>
+</div>
+</body>
