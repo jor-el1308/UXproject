@@ -10,13 +10,45 @@
         /* In case you want to add something later*/
     </style>
     <script>
-        /* idk how to add a wanring for leaving the page. prob needs a query or event listener*/
+      
     </script>
 </head>
 <body>
+<header>
+        <nav class="navbar">
+            <a href="CCAPage.html">
+                <img src="CCA Logo-1.png.png" height="90" class="Logo">
+            </a>
+            <ul class="NavMenu">
+                <li class="navItem">
+                    <a href="CCAPage.html" class="navLink">Home</a>
+                </li>
+                <li class="navItem">
+                    <a href="CCAEVENTS.html" class="navLink">Next Week's Game and Upcoming Events</a>
+                </li>
+                <li class="navItem">
+                    <a href="vote-game.html" class="navLink">Next Week Game Voting</a>
+                </li>
+                <li class="navItem">
+                    <a href="#" class="navLink">Signing Up</a>
+                </li>
+            </ul>
+            <div class="NavSideBar">
+                <span class="Bar"></span>
+                <span class="Bar"></span>
+                <span class="Bar"></span>
+            </div>
+        </nav>
+</header>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <u><h1 id="leftwords">GAME OF THE WEEK</h1></u>
   <div id="centerwords" style="display: flex; align-items: flex-start;">
-    <img src="pixel chessboard-1.png.png" loading="lazy" alt="Chess" width="400" height="400" style="padding-right: 100px;">
+    <img src="pixel chessboard-1.png.png" loading="lazy" alt="Chess" width="450" height="450" style="padding-right: 100px;">
     <div>
       <h2>We are playing the game of wit, Chess!</h2>
       <p>
@@ -42,21 +74,21 @@
 <br>
 <h2 id="centerwords"><u>Mario Kart</u></h2>
 <div id="rightwords" style="display: flex; align-items: flex-start;">
-    <img src="mario.png" loading="lazy" alt="Mario Kart" width="400px" height="300px" style="padding-right: 250px;">
+    <img src="mario.png" loading="lazy" alt="Mario Kart" width="700px" height="300px" style="padding-right: 250px;">
     <div>
         <p>Passionate Gamers, I'm sure you've heard of the release of the Switch 2.<br> If you're interested, you can come down to T-Junction to join us for a<br> night of Mario Kart!ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
         <br>
         <br>
         <br>
         <br>
-        <a href="gamenight.html" style="color: aqua;">for more details, click me!</a>
+        <a href="gamenight.html" style="color: aqua;">for more details regarding Game Night, click me!</a>
     </div>
 </div>
 <br>
 <br>
 <h2 id="centerwords"><u>Netflix and Chill</u></h2>
 <div id="rightwords" style="display: flex; align-items: flex-start;">
-    <img src="img-netflix-home-screen.jpg" loading="lazy" alt="Netflix Homepage" width="400px" height="300px" style="padding-right: 250px;">
+    <img src="img-netflix-home-screen.jpg" loading="lazy" alt="Netflix Homepage" width="700px" height="300px" style="padding-right: 250px;">
     <div>
         <p>We will be watching an Anime film, specifically <a style="color: aqua;" href="https://www.youtube.com/watch?v=LkTFtGmncrA&t=5s">Bâan: The Boundary of Adulthood(you can watch the premire here)</a></p>
         <br>
