@@ -30,7 +30,7 @@
                     <a href="vote-game.html" class="navLink">Next Week<br>Game Voting</a>
                 </li>
                 <li class="navItem">
-                    <a href="#" class="navLink">Signing Up</a>
+                    <a href="SignUp.html" class="navLink">Signing Up</a>
                 </li>
             </ul>
             <div class="NavSideBar">
