@@ -73,6 +73,8 @@
 <br>
 <br>
 <h2 id="centerwords"><u>Mario Kart</u></h2>
+<br>
+<br>
 <div id="rightwords" style="display: flex; align-items: flex-start;">
     <img src="mario.png" loading="lazy" alt="Mario Kart" width="700px" height="300px" style="padding-right: 250px;">
     <div>
@@ -87,6 +89,8 @@
 <br>
 <br>
 <h2 id="centerwords"><u>Netflix and Chill</u></h2>
+<br>
+<br>
 <div id="rightwords" style="display: flex; align-items: flex-start;">
     <img src="img-netflix-home-screen.jpg" loading="lazy" alt="Netflix Homepage" width="700px" height="300px" style="padding-right: 250px;">
     <div>
