@@ -24,10 +24,10 @@
                     <a href="CCAPage.html" class="navLink">Home</a>
                 </li>
                 <li class="navItem">
-                    <a href="CCAEVENTS.html" class="navLink">Next Week's Game and Upcoming Events</a>
+                    <a href="CCAEVENTS.html" class="navLink">Next Week's Game<br>and Upcoming Events</a>
                 </li>
                 <li class="navItem">
-                    <a href="vote-game.html" class="navLink">Next Week Game Voting</a>
+                    <a href="vote-game.html" class="navLink">Next Week<br>Game Voting</a>
                 </li>
                 <li class="navItem">
                     <a href="#" class="navLink">Signing Up</a>
