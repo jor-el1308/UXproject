@@ -16,6 +16,11 @@ body{
     font-size: 60px;
     -webkit-text-stroke: 3px black;
 }
+#CCA span{
+    background-color: grey;
+    padding: 10px;
+    border-radius: 15px;
+}
 #imgtext{
   width: 100%;
   max-width: 100%;
@@ -34,12 +39,23 @@ body{
 }
 #gif{
  height: 400px;
- width: 100%;
+ width: 800px;
  align-items: center;
+ background-repeat: no-repeat;
 }
 #rightwords{
   text-align: right;
 }
 #centerwords{
   text-align: center;
+  align-items: center;
+}
+.caption{
+  font-size: 10px;
+}
+#grey{
+  background-color: rgb(44, 44, 44);
+}
+#red{
+  color: red;
 }
