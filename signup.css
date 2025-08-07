@@ -70,3 +70,35 @@ button:hover {
         padding: 20px;
     }
 }
+.radio-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.left-section img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.game-info {
+    max-width: 300px;
+}
+
+.radio-option input[type="radio"] {
+    margin-left: auto;
+    transform: scale(1.4);
+}
