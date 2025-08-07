@@ -39,28 +39,93 @@
 <br>
 <br>
 
-    <div class="signup-container">
-        <h1>Vote for Next Week's Game</h1>
+<div class="signup-container">
+    <h1>Vote for Next Week's Game</h1>
 
-        <form id="voteForm">
-            <div class="form-group">
-                <label>Choose your favorite board game:</label>
-                <label class="radio-label"><input type="radio" name="game" value="Catan" required> Catan</label>
-                <label class="radio-label"><input type="radio" name="game" value="Dixit"> Dixit</label>
-                <label class="radio-label"><input type="radio" name="game" value="Codenames"> Codenames</label>
-                <label class="radio-label"><input type="radio" name="game" value="Ticket to Ride"> Ticket to Ride</label>
-                <label class="radio-label"><input type="radio" name="game" value="Uno"> Uno</label>
-                <label class="radio-label"><input type="radio" name="game" value="Other"> Other</label>
-            </div>
+    <form id="voteForm">
+        <div class="form-group">
+            <label class="form-label">Choose your favorite board game or card game:</label>
 
-            <div class="form-group">
-                <label for="otherGame">If other, please specify:</label>
-                <input type="text" id="otherGame" name="otherGame" placeholder="Enter your suggestion">
-            </div>
 
-            <button type="submit">Submit Vote</button>
-        </form>
+             <label class="radio-option">
+                <div class="left-section">
+                    <img src="risk.jpg" alt="Risk">
+                    <div class="game-info">
+                        <strong>Risk</strong><br>
+                        <small>Conquer the world in this classic strategy war game.</small>
+                    </div>
+                </div>
+                <input type="radio" name="game" value="Risk" required>
+            </label>
+
+            <label class="radio-option">
+                <div class="left-section">
+        <img src="magic.jpg" alt="Magic: The Gathering">
+        <div class="game-info">
+            <strong>Magic: The Gathering</strong><br>
+            <small>A trading card game full of fantasy creatures and spells.</small>
+        </div>
     </div>
+    <input type="radio" name="game" value="Magic: The Gathering">
+</label>
+
+
+<label class="radio-option">
+    <div class="left-section">
+        <img src="monopoly.jpg" alt="Monopoly">
+        <div class="game-info">
+            <strong>Monopoly</strong><br>
+            <small>Buy, trade, and build your real estate empire to bankrupt your friends.</small>
+        </div>
+    </div>
+    <input type="radio" name="game" value="Monopoly">
+</label>
+
+
+<label class="radio-option">
+    <div class="left-section">
+        <img src="codenames.jpg" alt="Codenames">
+        <div class="game-info">
+            <strong>Codenames</strong><br>
+            <small>A word association spy game for teams.</small>
+        </div>
+    </div>
+    <input type="radio" name="game" value="Codenames">
+</label>
+
+
+<label class="radio-option">
+    <div class="left-section">
+        <img src="uno.jpg" alt="Uno">
+        <div class="game-info">
+            <strong>Uno</strong><br>
+            <small>Fast-paced card game that's easy and fun for all ages.</small>
+        </div>
+    </div>
+    <input type="radio" name="game" value="Uno">
+</label>
+
+
+<label class="radio-option">
+    <div class="left-section">
+        <img src="other.jpg" alt="Other">
+        <div class="game-info">
+            <strong>Other</strong><br>
+            <small>If your favorite isn’t listed, suggest one below.</small>
+        </div>
+    </div>
+    <input type="radio" name="game" value="Other">
+</label>
+
+        <div class="form-group">
+            <label for="otherGame">If other, please specify:</label>
+            <input type="text" id="otherGame" name="otherGame" placeholder="Enter your suggestion">
+        </div>
+
+        <button type="submit">Submit Vote</button>
+    </form>
+</div>
+
 
     <script>
         document.getElementById('voteForm').addEventListener('submit', function (e) {
@@ -82,3 +147,10 @@
 <br>
 </body>
 </html>
+
+<br>
+<br>
+<br>
+</body>
+</html>
+
