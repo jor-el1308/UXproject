@@ -100,11 +100,20 @@
                     <input type="checkbox" name="agree" required> I agree to the club rules and code of conduct
                 </label>
             </div>
-            
-            <button type="submit">Submit Application</button>
+            <a href="complete.html">
+                <button type="submit" onclick="">Submit Application</button>
+            </a>
         </form>
     </div>
+    <script>
+        document.getElementById('signupForm').addEventListener('submit', function(e) {
+            e.preventDefault();
 
+            alert('Thank you for your application to Board Games CCA! We will contact you soon.');
+            window.location.href = 'complete.html';
+            this.reset();
+        });
+    </script>
     <script src="Header.js"></script>
 <br>
 <br>
